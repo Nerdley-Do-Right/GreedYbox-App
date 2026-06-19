@@ -2,10 +2,10 @@
   "private": true,
   "name": "greenlight",
   "description": "Greenlight is a streaming application for Xbox and xCloud",
-  "author": "UnknownSKL <info+github@jimkroon.nl>",
+  "author": "GrandAviation",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/unknownskl/greenlight.git"
+    "url": "git+https://github.com/Nerdley-Do-Right/GreedYbox-App.git"
   },
   "scripts": {
     "desktop": "yarn workspace greenlight-desktop",
