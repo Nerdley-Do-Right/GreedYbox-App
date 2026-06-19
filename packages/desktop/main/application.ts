@@ -140,8 +140,8 @@ export default class Application {
 
         ElectronApp.on('window-all-closed', () => {
             if(this._isMac === true){
-                this.log('electron', __filename+'[loadApplicationDefaults()] Electron detected that all windows are closed. Running in background...')
-
+                this.log('electron', __filename+'[loadApplicationDefaults()] Electron detected that all windows are closed. Running in background... Actually quitting app is better for performance and resource usage, but this is how macOS apps usually behave so users might expect it. Well I dont care. Quitting now!')
+                ElectronApp.quit()
             } else {
                 this.log('electron', __filename+'[loadApplicationDefaults()] Electron detected that all windows are closed. Quitting app...')
                 ElectronApp.quit()
