@@ -1,17 +1,11 @@
-# Greenlight
+# GreedYbox App
 
-[![Build/Desktop](https://github.com/unknownskl/greenlight/actions/workflows/build_desktop.yml/badge.svg)](https://github.com/unknownskl/greenlight/actions/workflows/build_desktop.yml)
-[![Build/Docs](https://github.com/unknownskl/greenlight/actions/workflows/build_docs.yml/badge.svg)](https://github.com/unknownskl/greenlight/actions/workflows/build_docs.yml)
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=unknownskl_greenlight&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=unknownskl_greenlight)
-[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=unknownskl_greenlight&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=unknownskl_greenlight)
-[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=unknownskl_greenlight&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=unknownskl_greenlight)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=unknownskl_greenlight&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=unknownskl_greenlight)
 
-Greenlight is an open-source client for xCloud and Xbox home streaming made in Javascript and Typescript. The client is an application wrapper around [xbox-xcloud-player](https://github.com/unknownskl/xbox-xcloud-player).
+GreedYbox App is an open-source client for xCloud and Xbox home streaming made in Javascript and Typescript. The client is an application wrapper around [xbox-xcloud-player](https://github.com/unknownskl/xbox-xcloud-player).
 The application runs on Linux, macOS, Windows and Steam Deck.
 
-_DISCLAIMER: Greenlight is not affiliated with Microsoft, Xbox or Moonlight. All rights and trademarks are property of their respective owners._
+_DISCLAIMER: GreedYbox App is not affiliated with Microslop, Xbox or Moonlight. All rights and trademarks are property of their respective owners._
 
 ## Features
 
@@ -25,11 +19,8 @@ _DISCLAIMER: Greenlight is not affiliated with Microsoft, Xbox or Moonlight. All
 
 ## Install
 
-### Install from Flathub:
-[Install on Flathub](https://flathub.org/apps/details/io.github.unknownskl.greenlight)
-
 ### Download pre-compiled binaries:
-[Latest releases can be found here](https://github.com/unknownskl/greenlight/releases).
+[Latest releases can be found here](https://github.com/Nerdley-Do-Right/GreedYbox-App/releases).
 
 ### Compile from source
 
@@ -104,10 +95,11 @@ Create production build:
 
     yarn desktop build
 
-## Translations
 
-Want to help out with new translations? Help us on [https://poeditor.com/join/project/9SfHRQDbfN](Poeditor.com)
 
 ## Changelog
+IDK
 
-See [changelog](https://unknownskl.github.io/greenlight/docs/desktop/changelog).
+## Credits
+
+_Based on Greenlight by UnknownSKL, this is a fork for some fun features._
